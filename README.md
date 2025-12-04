@@ -7,6 +7,8 @@ The project is intentionally split into small, clean files so you can clearly se
 ---
 
 ## Project Structure
+
+```bash
 .
 ├── data.py      # Data loading: transforms + MNIST DataLoaders
 ├── model.py     # CNN model definition (Net)
@@ -14,7 +16,7 @@ The project is intentionally split into small, clean files so you can clearly se
 ├── train.py     # train() and test() functions
 ├── main.py      # Entry point: wires everything together and runs training
 └── README.md
-
+```
 ---
 
 ## Requirements
